@@ -27,7 +27,10 @@ cd SkylineUI
 ```bash
 repo init -u https://github.com/SkylineUI/manifest -b aosp-14 --git-lfs
 ```
-
+- Repo local manifest
+```bash
+git clone https://github.com/naden01/onclite_manifest.git -b skyline .repo/local_manifests
+```
 Now we proceed with the synchronization of the source with the following command:
 ```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
