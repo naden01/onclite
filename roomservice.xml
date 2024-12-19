@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Device tree -->
+  <project name="LineageOS/android_device_xiaomi_onclite" path="device/xiaomi/onclite" remote="github" revision="lineage-21" />
+
+  <!-- Vendor tree -->
+  <project name="Dhina17/android_vendor_xiaomi_onclite" path="vendor/xiaomi/onclite" remote="github" revision="lineage-21" />
+
+  <!-- Kernel source -->
+  <project name="LineageOS/android_kernel_xiaomi_onclite" path="kernel/xiaomi/onclite" remote="github" revision="lineage-21" />
+
+  <!-- hardware -->
+  <project name="LineageOS/android_hardware_xiaomi " path="hardware/xiaomi" remote="github" revision="lineage-21" />
+  
+  <!-- priv-keys -->
+  <project name="onclite/android_vendor_lineage-priv_keyse" path="vendor/lineage-priv/keys" remote="github" revision="master" /> 
+
+</manifest>
